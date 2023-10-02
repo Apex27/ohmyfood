@@ -1,0 +1,470 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- it declares the page's character encoding. -->
+
+  <meta charset="UTF-8">
+
+  <!-- viewport for mobiles -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- cdn for font awsome -->
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"
+    type="text/css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <!-- fonts -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- normalize -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <!-- css -->
+
+  <link rel="stylesheet" href="./css/style.css">
+
+  <link rel="stylesheet" href="./css/style-mobile.css">
+  <link rel="stylesheet" href="./css/style-tablet.css">
+
+  <title>Booki</title>
+</head>
+
+<body>
+
+  <!-- /*Header */ -->
+
+  <header class="header-container">
+    <img src="./images/logo/Booki.png" alt="Logo" id="logo">
+    <nav id="nav-container">
+      <a href="#accommodations ">Accommodation</a>
+      <a href="#activities">Activities</a>
+    </nav>
+  </header>
+
+  <!-- /*Content */ -->
+
+  <main class="content contain-size" aria-label="Main Content">
+    <section class="page-title">
+      <div class="section-title">
+        <h3>Find a place for your dream vacation</h3>
+        <p>Downtown or in a nature</p>
+      </div>
+      <!-- /* Content -> Search */ -->
+
+      <form class="search">
+        <div class="search-location">
+
+          <i class="fa-solid fa-location-dot"></i>
+        </div>
+        <input type="search" id="searchbar-input" name="location-search" placeholder="Search..."
+          value="Marseille, France">
+        <button type="submit">
+          <i class="fa fa-search fa-lg" aria-hidden="true"></i>
+          <span>Search</span>
+        </button>
+      </form>
+    </section>
+
+    <!-- /* Content -> Filters */ -->
+
+    <section class="section-filters">
+      <h4 class="filter-title">Filters</h4>
+
+      <div class="filters-container">
+
+        <!-- added inside a div all the filters to style them more easly  -->
+
+        <a href="#" class="filter-item">
+          <i class="fa fas fa-money-bill-wave" style="color: #0065fc"></i>
+          <p>Low Cost</p>
+        </a>
+        <a href="#" class="filter-item">
+          <i class="fa-solid fa-heart" style="color: #0065fc"></i>
+          <p>Romantic</p>
+        </a>
+        <a href="#" class="filter-item child-icon">
+          <i class="fas fa-child" style="color: #0065fc"></i>
+          <p>Family-friendly</p>
+        </a>
+
+        <a href="#" class="filter-item">
+          <i class="fa-solid fa-dog" style="color: #0065fc"></i>
+          <p>Pets allowed</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- /* Content -> Info i */ -->
+
+    <div class="div-info">
+      <i class="fa-solid fa-info fa-xs" style="color: #0065fc"></i>
+      <p>More than 500 accommodations are available in this city</p>
+    </div>
+    </section>
+
+    
+      <!-- /* -> Accommodations */ -->
+
+      <section class="section-accommodations" id="accommodations">
+        <h3>Accommodations in Marseille</h3>
+        <div class="section-accommodations-cards">
+
+          <!--* Accommodations -> the cards inside the panel *-->
+
+          <div class="section-ACCOMODATION-card-INFO">
+            <a href="#">
+              <div class="image-box">
+                <img src="./images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" srcset="
+                      ./images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg  1000w,
+                      ./images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg  992w,
+                      ./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg   768w
+                    " sizes="(max-width: 992px) 992px, (max-width: 768px) 768px, 1000px" alt="Image of stayings.">
+              </div>
+              <div class="section-card-text">
+                <h5>Auberge la Cannebière</h5>
+                <p>Night starting at <strong>25€</strong></p>
+                <div class="card-stars">
+                  <i class="fa-solid fa-star fa-xs" style="color: #0065fc"></i>
+                  <i class="fa-solid fa-star fa-xs" style="color: #0065fc"></i>
+                  <i class="fa-solid fa-star fa-xs" style="color: #0065fc"></i>
+                  <i class="fa-solid fa-star fa-xs" style="color: #0065fc"></i>
+                  <i class="fa-solid fa-star fa-xs" style="color: #d8d8d8"></i>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="section-ACCOMODATION-card-INFO">
+            <a href="#">
+              <div class="image-box">
+                <img src="./images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg" srcset="
+                      ./images/hebergements/2_large/fred-kleber-gTbaxaVLvsg-unsplash.jpg  1000w,
+                      ./images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg  992w,
+                      ./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg   768w
+                    " sizes="(max-width: 992px) 992px, (max-width: 768px) 768px, 1000px" alt="Image of stayings.">
+              </div>
+              <div class="section-card-text">
+                <h5>Hôtel du port</h5>
+                <p>Night starting at <strong>52€</strong></p>
+                <div class="card-stars">
+                  <i class="fa-solid fa-star fa-xs" style="color: #0065fc"></i>
+                  <i class="fa-solid fa-star fa-xs" style="color: #0065fc"></i>
+                  <i class="fa-solid fa-star fa-xs" style="color: #0065fc"></i>
+                  <i class="fa-solid fa-star fa-xs" style="color: #0065fc"></i>
+                  <i class="fa-solid fa-star fa-xs" style="color: #0065fc"></i>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="section-ACCOMODATION-card-INFO">
+            <a href="#">
+              <div class="image-box">
+                <img src="./images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg.jpg" srcset="
+                      ./images/hebergements/2_large/reisetopia-B8WIgxA_PFU-unsplash.jpg  1000w,
+                      ./images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg  992w,
+                      ./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg   768w
+                    " sizes="(max-width: 992px) 992px, (max-width: 768px) 768px, 1000px" alt="Image of stayings.">
+              </div>
+              <div class="section-card-text">
+                <h5>Les mouettes Hotel</h5>
+                <p>Night starting at <strong>76€</strong></p>
+                <div class="card-stars">
+                  <i class="fa-solid fa-star fa-xs" style="color: #0065fc"></i>
+                  <i class="fa-solid fa-star fa-xs" style="color: #0065fc"></i>
+                  <i class="fa-solid fa-star fa-xs" style="color: #0065fc"></i>
+                  <i class="fa-solid fa-star fa-xs" style="color: #0065fc"></i>
+                  <i class="fa-solid fa-star fa-xs" style="color: #d8d8d8"></i>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="section-ACCOMODATION-card-INFO">
+            <a href="#">
+              <div class="image-box">
+                <img src="./images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg" srcset="
+                      ./images/hebergements/2_large/annie-spratt-Eg1qcIitAuA-unsplash.jpg  1000w,
+                      ./images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg  992w,
+                      ./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg   768w
+                    " sizes="(max-width: 992px) 992px, (max-width: 768px) 768px, 1000px" alt="Image of stayings.">
+              </div>
+              <div class="section-card-text">
+                <h5>Hôtel de la mer</h5>
+                <p>Night starting at <strong>46€</strong></p>
+                <div class="card-stars">
+                  <i class="fa-solid fa-star fa-xs" style="color: #0065fc"></i>
+                  <i class="fa-solid fa-star fa-xs" style="color: #0065fc"></i>
+                  <i class="fa-solid fa-star fa-xs" style="color: #0065fc"></i>
+                  <i class="fa-solid fa-star fa-xs" style="color: #d8d8d8"></i>
+                  <i class="fa-solid fa-star fa-xs" style="color: #d8d8d8"></i>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="section-ACCOMODATION-card-INFO">
+            <a href="#">
+              <div class="image-box">
+                <img src="./images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg.jpg" srcset="
+                      ./images/hebergements/2_large/nicate-lee-kT-ZyaiwBe0-unsplash.jpg  1000w,
+                      ./images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg  992w,
+                      ./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg   768w
+                    " sizes="(max-width: 992px) 992px, (max-width: 768px) 768px, 1000px" alt="Image of stayings.">
+              </div>
+              <div class="section-card-text">
+                <h5>Auberge Le Panier</h5>
+                <p>Night starting at <strong>23€</strong></p>
+                <div class="card-stars">
+                  <i class="fa-solid fa-star fa-xs" style="color: #0065fc"></i>
+                  <i class="fa-solid fa-star fa-xs" style="color: #0065fc"></i>
+                  <i class="fa-solid fa-star fa-xs" style="color: #0065fc"></i>
+                  <i class="fa-solid fa-star fa-xs" style="color: #0065fc"></i>
+                  <i class="fa-solid fa-star fa-xs" style="color: #d8d8d8"></i>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="section-ACCOMODATION-card-INFO">
+            <a href="#">
+              <div class="image-box">
+                <img src="./images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" srcset="
+                      ./images/hebergements/2_large/febrian-zakaria-M6S1WvfW68A-unsplash.jpg 1000w,
+                      ./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg  992w,
+                      ./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg  768w
+                    " sizes="(max-width: 992px) 992px, (max-width: 768px) 768px, 1000px" alt="Image of stayings.">
+              </div>
+              <div class="section-card-text">
+                <h5>Hôtel chez Amina</h5>
+                <p>Night starting at <strong>96€</strong></p>
+                <div class="card-stars">
+                  <i class="fa-solid fa-star fa-xs" style="color: #0065fc"></i>
+                  <i class="fa-solid fa-star fa-xs" style="color: #0065fc"></i>
+                  <i class="fa-solid fa-star fa-xs" style="color: #0065fc"></i>
+                  <i class="fa-solid fa-star fa-xs" style="color: #0065fc"></i>
+                  <i class="fa-solid fa-star fa-xs" style="color: #0065fc"></i>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <h4><a href="#">Show more</a></h4>
+      </section>
+
+      <!-- /* -> Popular */ -->
+
+      <section class="section-popular">
+        <div class="popular-title-star">
+          <h3>Most Popular</h3>
+          <i class="fa-solid fa-star"></i>
+        </div>
+
+        <div class="section-popular-cards">
+          <a href="#">
+            <div class="section-POPULAR-card-INFO">
+              <div class="image-box popular-img">
+                <img src="./images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" srcset="
+                      ./images/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg  1000w,
+                      ./images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg  992w,
+                      ./images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg   768w
+                    " sizes="(max-width: 992px) 992px, (max-width: 768px) 768px, 1000px" alt="Image of stayings.">
+              </div>
+              <div class="section-card-text">
+                <h5>Morning Sun Hotel</h5>
+                <p>Night starting at <strong>128€</strong></p>
+                <div class="card-stars">
+                  <i class="fa-solid fa-star fa-xs" style="color: #0065fc"></i>
+                  <i class="fa-solid fa-star fa-xs" style="color: #0065fc"></i>
+                  <i class="fa-solid fa-star fa-xs" style="color: #0065fc"></i>
+                  <i class="fa-solid fa-star fa-xs" style="color: #0065fc"></i>
+                  <i class="fa-solid fa-star fa-xs" style="color: #0065fc"></i>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="section-POPULAR-card-INFO">
+              <div class="image-box popular-img">
+                <img src="./images/hebergements/2_medium/aw-creative-VGs8z60yT2c-unsplash.jpg" srcset="
+                      ./images/hebergements/2_large/aw-creative-VGs8z60yT2c-unsplash.jpg  1000w,
+                      ./images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg  992w,
+                      ./images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg   768w
+                    " sizes="(max-width: 992px) 992px, (max-width: 768px) 768px, 1000px" alt="Image of stayings.">
+              </div>
+              <div class="section-card-text">
+                <h5>Au cœur de l'eau Bed and Breakfast</h5>
+                <p>Night starting at <strong>68€</strong></p>
+                <div class="card-stars">
+                  <i class="fa-solid fa-star fa-xs" style="color: #0065fc"></i>
+                  <i class="fa-solid fa-star fa-xs" style="color: #0065fc"></i>
+                  <i class="fa-solid fa-star fa-xs" style="color: #0065fc"></i>
+                  <i class="fa-solid fa-star fa-xs" style="color: #0065fc"></i>
+                  <i class="fa-solid fa-star fa-xs" style="color: #d8d8d8"></i>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="section-POPULAR-card-INFO">
+              <div class="image-box popular-img">
+                <img src="./images/hebergements/2_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg" srcset="
+                      ./images/hebergements/2_large/febrian-zakaria-sjvU0THccQA-unsplash.jpg  1000w,
+                      ./images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg  992w,
+                      ./images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg   768w
+                    " sizes="(max-width: 992px) 992px, (max-width: 768px) 768px, 1000px" alt="Image of stayings.">
+              </div>
+              <div class="section-card-text">
+                <h5>Tout bleu et Blanc Hotel</h5>
+                <p>Night starting at <strong>68€</strong></p>
+                <div class="card-stars">
+                  <i class="fa-solid fa-star fa-xs" style="color: #0065fc"></i>
+                  <i class="fa-solid fa-star fa-xs" style="color: #0065fc"></i>
+                  <i class="fa-solid fa-star fa-xs" style="color: #0065fc"></i>
+                  <i class="fa-solid fa-star fa-xs" style="color: #0065fc"></i>
+                  <i class="fa-solid fa-star fa-xs" style="color: #d8d8d8"></i>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+    </div>
+    </section>
+
+    <!-- /* Content -> Activities*/ -->
+    <section id="activities">
+      <h3>Activities in Marseille</h3>
+
+      <div class="section-ACTIVITIES">
+        <a href="#">
+          <div class="activities-card section-ACTIVITIES-A-img-large">
+
+            <div class="image-box popular-img">
+              <img src="./images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" srcset="
+                  ./images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg  1000w,
+                  ./images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg  992w,
+                  ./images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg   768w
+                " sizes="(max-width: 992px) 992px, (max-width: 768px) 768px, 1000px" alt="Image of stayings.">
+            </div>
+            <h5>Old Port</h5>
+
+          </div>
+        </a>
+
+        <a href="#">
+          <div class="activities-card section-ACTIVITIES-B-img-large">
+
+            <div class="image-box popular-img">
+              <img src="./images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" srcset="
+                    ./images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg  1000w,
+                    ./images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg  992w,
+                    ./images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg   768w
+                  " sizes="(max-width: 992px) 992px, (max-width: 768px) 768px, 1000px" alt="Image of stayings.">
+            </div>
+            <h5>Pomégues Fort</h5>
+
+          </div>
+        </a>
+
+        <a href="#">
+          <div class="activities-card section-ACTIVITIES-B-img-small">
+
+
+            <img src="./images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg.jpg" srcset="
+                    ./images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg  1000w,
+                    ./images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg  992w,
+                    ./images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg   768w
+                  " sizes="(max-width: 992px) 992px, (max-width: 768px) 768px, 1000px" alt="Image of stayings.">
+
+            <h5>Frioul Island</h5>
+
+          </div>
+        </a>
+
+        <a href="#">
+          <div class="activities-card section-ACTIVITIES-A-img-large">
+
+
+            <img src="./images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" srcset="
+                  ./images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg  1000w,
+                  ./images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg  992w,
+                  ./images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg   768w
+                " sizes="(max-width: 992px) 992px, (max-width: 768px) 768px, 1000px" alt="Image of stayings.">
+
+
+            <h5>Calangues National Park</h5>
+
+          </div>
+        </a>
+
+        <a href="#">
+          <div class="activities-card section-activities-two-img-small">
+
+
+            <img src="./images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" srcset="
+                    ./images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg  1000w,
+                    ./images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg  992w,
+                    ./images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg   768w
+                  " sizes="(max-width: 992px) 992px, (max-width: 768px) 768px, 1000px" alt="Image of stayings.">
+
+            <h5>Notre-Dame-de-la-Garde</h5>
+
+          </div>
+        </a>
+        <a href="#">
+          <div class="activities-card section-activities-two-img-small">
+
+            <img src="./images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg" srcset="
+                    ./images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg  1000w,
+                    ./images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg  992w,
+                    ./images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg   768w
+                  " sizes="(max-width: 992px) 992px, (max-width: 768px) 768px, 1000px" alt="Image of stayings.">
+
+            <h5>Longchamp Park</h5>
+
+          </div>
+        </a>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- /* Footer */ -->
+  <footer>
+    <div class="container-footer">
+      <div class="footer-col">
+        <a href="#" target="_blank">About</a>
+        <div class="footer-under-links">
+          <a href="#" target="_blank">Site Map</a>
+          <a href="#" target="_blank">General Terms and Conditions</a>
+          <a href="#" target="_blank">Data and Privacy</a>
+        </div>
+      </div>
+
+      <div class="footer-col footer-col-second">
+        <a href="#" target="_blank">Our Accommodations</a>
+        <div class="footer-under-links">
+          <a href="#" target="_blank">Quality Assessment</a>
+          <a href="#" target="_blank">You have a hotel?</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <a href="#" target="_blank">Assistance</a>
+        <div class="footer-under-links">
+          <a href="#" target="_blank">Help Desk</a>
+          <a href="#" target="_blank">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
